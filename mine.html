@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Симулятор бара: Шахта</title>
+    <meta name="description" content="Добро пожалаовать на Шахту симулятора бара Аризоны РП. Сдесь вы можете заработать баллы для бара">
+    <meta name="keywords" content="Симулятор бара Аризона РП, Бар Аризона РП, Шахта симулятора бара Аризоны РП">
+    <meta name="robots" content="index, follow">
+    <link type="image/x-icon" href="/favicon.ico" rel="shortcut icon">
+    <link type="Image/x-icon" href="/favicon.ico" rel="icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="body">
+    <div id="preloader">
+    </div>
+    <header class="header">
+      <div class="container">
+        <div class="header__container">
+          <nav class="nav menu" title="Главное меню" data-burger>
+            <ul class="list-reset nav__list">
+              <li class="nav__item">
+                <a href="index.html" class="nav__link1" data-scroll>Главная</a>
+              </li>
+              <li class="nav__item">
+                <a href="index.html" class="nav__link1" data-scroll
+                  >Актуальные цены</a
+                >
+              </li>
+              <li class="nav__item">
+                <a href="index.html" class="nav__link1" data-scroll
+                  >Калькулятор</a
+                >
+              </li>
+              <li class="nav__item">
+                <a href="bar-main.html" class="nav__link1" data-scroll>Симулятор бара</a>
+              </li>
+              <li class="nav__item">
+                <a href="index.html" class="nav__link1">Гайды</a>
+              </li>
+              <li class="nav__item">
+                <a href="index.html" class="nav__link1">Промокоды</a>
+              </li>
+            </ul>
+          </nav>
+
+          <div class="menu-icon"><span></span><span></span><span></span></div>
+        </div>
+      </div>
+    </header>
+
+    <div class="wrapper">
+      <main class="main">
+        <section class="bar">
+          <div class="container">
+
+            <div class="titlebox row">
+              <div class="title-name col-md-8">
+                <h1>Симулятор бара Аризоны РП</h1>
+                <p>Ты пришел на шахту</p>
+              </div>
+            </div>
+
+            <div class="balans row">
+              <div class="balams_cont col-12">
+                <p>Твой баланс:</p>
+                <span id="balance"></span>
+              </div>
+            </div>
+
+            <div class="content__mine">
+              <div class="imgbox col-12">
+                <img
+                  src="img/0627.gif"
+                  alt=""
+                  class="gif"
+                  style="display: none"
+                  id="gif1"
+                />
+                <img src="img/mine.jpg" alt="" />
+              </div>
+            </div>
+
+            <div class="balans__btn row">
+              <a class="btn col-4" id="ruda">Добывать руду</a>
+              <a href="bar.html" class="btn btn__bar col-4">Пойти в бар</a>
+            </div>
+
+            <div class="promo">
+              <p class="subp" style="font-size: 18px;">
+                Введи промо и получи 50кк <br>
+                Промо можно поулчить у бота:
+                <a href="#" style="color: rgb(255, 153, 231); text-decoration: underline; font-size: 25px;">Вконтакте</a> <br>боту напиши "получить_промо"
+              </p>
+              <p class="info" id="subp"></p>
+              <form action="#" class="form__promo">
+                <input
+                  required="required"
+                  type="text"
+                  class="input__promo"
+                  placeholder="Введите промо"
+                  id="promoCode"
+                />
+                <button type="submit" value="Результат" class="btn__promo" id="submitBtn">
+                  Получить 50кк
+                </button>
+              </form>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+    <script src="js/sahta.js"></script>
+    <script src="js/anims.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
