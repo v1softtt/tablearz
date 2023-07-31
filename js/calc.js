@@ -41,4 +41,3 @@ function calculate() {
   document.querySelector('.result-2').innerText = `Прибыль: ${formattedResult2}`;
 }
 
-AOS.init();

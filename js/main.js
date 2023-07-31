@@ -220,13 +220,12 @@ function chatstart() {
   // Вызываем функцию размещения ставки при отправке сообщения
   placeBet(text.split(" ")[0].toLowerCase(), parseInt(text.split(" ")[1]));
   
-
-
-
-
 }
 
 
 
 
-// Создаем объект игры
+
+
+
+

@@ -91,6 +91,7 @@ header {
           justify-content: center; }
 
 .nav__list {
+  padding: 0 0 0 15px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -582,3 +583,110 @@ header {
   }
 }
 
+
+
+
+
+
+/*---------------------------------- карточки ----------------------------------*/
+ .card__img{
+  cursor: pointer;
+  border-radius: 5px;
+  border: solid 2px #9e0dff;
+ }
+
+.card__serv{
+  font-size: 14px;
+  text-align: center;
+  background-color: #9e0dff;
+  margin-top: 2px;
+  border-radius: 5px;
+  max-width: 100%;
+}
+
+.card__serv2{
+  font-size: 14px;
+  text-align: center;
+  background-color: #148fe0;
+  margin-top: 2px;
+  border-radius: 5px;
+  max-width: 100%;
+}
+
+
+.cards-price{
+}
+
+.c-img img{
+  width: 100%;
+}
+
+@media (max-width:575px){
+  .card{
+    width: 50%;
+
+  }
+  .cards-price{
+
+  }
+}
+
+
+
+.gdesc-inner{
+  background-color:#9e0dff;
+}
+
+.glightbox-clean .gslide-title {
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.glightbox-clean .gdesc-inner {
+    padding: 10px 20px;
+}
+
+
+
+/*---------------------------------- карточки гайдов----------------------------------*/
+.card__g{
+  cursor: pointer;
+
+  display: flex;
+  flex-direction: column;
+  height: auto;
+    height: 100%;
+
+}
+.card__g h2,  .card__g p{
+  margin-bottom: 10px;
+  color: #fff;
+}
+.card__g p{
+  font-size: clamp(0.875rem, 0.83rem + 0.23vw, 1rem);
+}
+.card__g h2{
+  font-size: clamp(1rem, 0.909rem + 0.45vw, 1.25rem);
+}
+
+.card__g img{
+border-radius: 5px 5px 0 0;
+margin-bottom: 5px;
+}
+
+.link{
+  background-color: #9e0dff;
+  white-space: nowrap;
+  display: block;
+  text-align: center;
+  height: 20px;
+
+
+}
+
+
+.promo{
+  font-size: 40px;
+}
